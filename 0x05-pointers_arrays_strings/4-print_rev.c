@@ -1,22 +1,24 @@
 #include "main.h"
 
 /**
- * print_rev - prints a string in stdout in reverse
- * @s: string to print
- *
+ * print_rev - prints string beckwards
+ * @s: string
  * Return: void
  */
+
 void print_rev(char *s)
 {
 	int i = 0;
 
-	while (*(s + i))
+	while (s[i] != '\0')
+	{
 		i++;
-	i = i - 1;
+	}
+	i--;
 	while (i >= 0)
 	{
-		while (i >= 0)
-			i--;
+		_putchar(s[i]);
+		i--;
 	}
 	_putchar('\n');
 }
