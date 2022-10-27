@@ -1,15 +1,15 @@
-Converts a binary number to an unsigned int.
+Tasks 0. Converts a binary number to an unsigned int.
 
-prints the binary representation of a number.
+Task 1. prints the binary representation of a number.
 
-returns the value of a bit at a given index.
+Task 2. returns the value of a bit at a given index.
 
-sets the value of a bit to 1 at a given index.
+Task 3. sets the value of a bit to 1 at a given index.
 
-sets the value of a bit to 0 at a given index.
+Task 4. sets the value of a bit to 0 at a given index.
 
-returns the number of bits you would need to flip to get from one number to another.
+Task 5. returns the number of bits you would need to flip to get from one number to another.
 
-checks the endianness.
+Task 6. checks the endianness.
 
-the password for this program.
+Tasks 7. the password for this program.
